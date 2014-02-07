@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SF</string>
+    <string name="tab_new_title">最新</string>
+    <string name="tab_hot_title">热门</string>
+    <string name="tab_no_answered_title">更新</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="drawer_items">
+        <item>菜单1</item>
+        <item>菜单4</item>
+        <item>菜单3</item>
+        <item>菜单4</item>
+    </string-array>
+
+</resources>

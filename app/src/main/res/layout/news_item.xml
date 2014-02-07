@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:paddingLeft="4dp"
+    android:layout_marginBottom="5dp">
+    <ImageView android:id="@+id/news_item_icon"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/ic_launcher"/>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_toRightOf="@id/news_item_icon"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:layout_alignParentRight="true">
+        <TextView android:id="@+id/news_item_title"
+            android:text="标题"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:textSize="20dp"/>
+
+        <TextView android:id="@+id/news_item_title"
+            android:text="11:20"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:textSize="12dp"/>
+
+        <TextView android:id="@+id/news_item_description"
+            android:text="这里是描述"
+            android:lines="1"
+            android:scrollHorizontally="true"
+            android:ellipsize="end"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:textSize="16dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>
